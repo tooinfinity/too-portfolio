@@ -44,9 +44,7 @@ class ProfileController extends Controller
             'function' => 'required',
             'about_me' => 'required'
         ]);
-
-        //dd($request->all());
-    
+        
         if($validator->fails()){
             return response()->json([
                 "success" => false,
@@ -54,8 +52,6 @@ class ProfileController extends Controller
                 "errors"  => $validator->errors()
             ]);     
         }
-
-       // dd($profile);
 
         if (is_null($profile)) {
             $profile = Profile::create([

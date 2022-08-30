@@ -54,4 +54,52 @@ class User extends Authenticatable
     {
         return $this->hasOne(Profile::class);
     }
+
+     /**
+     * Get the educations associated with the user.
+     */
+    public function educations()
+    {
+        return $this->hasMany(Education::class);
+    }
+
+     /**
+     * Get the certifications associated with the user.
+     */
+    public function certifications()
+    {
+        return $this->hasMany(Certification::class);
+    }
+
+     /**
+     * Get the skills associated with the user.
+     */
+    public function skills()
+    {
+        return $this->hasMany(Skill::class);
+    }
+
+     /**
+     * Get the socials associated with the user.
+     */
+    public function socials()
+    {
+        return $this->hasMany(Social::class);
+    }
+
+      /**
+     * Get the projects associated with the user.
+     */
+    public function projects()
+    {
+        return $this->hasMany(Project::class);
+    }
+
+     /**
+     * Get the jobs associated with the user.
+     */
+    public function jobs()
+    {
+        return $this->hasMany(Job::class);
+    }
 }
