@@ -6,22 +6,28 @@
 
 ### todo
 
-#### [ ] user module
-      - [ ] user schema table
+### user module
+      - [x] user schema table
           - id
           - firstname
           - lastname
           - email
           - password
           - about_me
-      - [ ] relations
-        - [ ] user has many education
-        - [ ] user has many certification
-        - [ ] user has many skill
-        - [ ] user has many social-account
-        - [ ] user has many project
-        - [ ] user has many job 
-#### [ ] education module
+      - [x] Methods
+          - [x] Login
+          - [x] register
+          - [x] getProfile
+          - [x] updateProfile
+      - [x] relations
+        - [x] user has many education
+        - [x] user has many certification
+        - [x] user has many skill
+        - [x] user has many social-account
+        - [x] user has many project
+        - [x] user has many job 
+  
+### education module
       - [ ] education schema table
           - id
           - degree_name
@@ -32,8 +38,13 @@
           - user_id
       - [ ] relations
         - [ ] education has one user
-      - [ ] crud
-#### [ ] certification module
+      - [ ] Methods
+        - [ ] index
+        - [ ] store
+        - [ ] update
+        - [ ] delete
+
+### certification module
       - [ ] certification schema table
           - id
           - name
@@ -44,8 +55,13 @@
           - user_id
       - [ ] relations
         - [ ] certification has one user
-      - [ ] crud
-#### [ ] skill module
+      - [ ] Methods
+        - [ ] index
+        - [ ] store
+        - [ ] update
+        - [ ] delete
+
+### skill module
       - [ ] skill schema table
           - id
           - name 
@@ -54,8 +70,13 @@
           - user_id
       - [ ] relations
         - [ ] skill has one user
-      - [ ] crud
-#### [ ] social_account module
+      - [ ] Methods
+        - [ ] index
+        - [ ] store
+        - [ ] update
+        - [ ] delete
+
+### social_account module
       - [ ] social_account schema table
           - id
           - url
@@ -65,8 +86,13 @@
           - user_id
       - [ ] relations
         - [ ] social_account has one user
-      - [ ] crud
-#### [ ] project module
+      - [ ] Methods
+        - [ ] index
+        - [ ] store
+        - [ ] update
+        - [ ] delete
+
+### project module
       - [ ] project schema table
           - id
           - name
@@ -77,8 +103,13 @@
           - user_id
       - [ ] relations
         - [ ] project has one user
-      - [ ] crud
-#### [ ] job module
+      - [ ] Methods
+        - [ ] index
+        - [ ] store
+        - [ ] update
+        - [ ] delete
+
+### job module
       - [ ] job schema table
           - id
           - company_name
@@ -89,6 +120,11 @@
           - user
       - [ ] relations
         - [ ] job has one user
-      - [ ] crud
-#### [ ] contact_me module
+      - [ ] Methods
+        - [ ] index
+        - [ ] store
+        - [ ] update
+        - [ ] delete
+
+### contact_me module
       - [ ] contact_me schema table
