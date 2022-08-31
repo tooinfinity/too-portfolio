@@ -28,7 +28,7 @@
         - [x] user has many job 
   
 ### education module
-      - [ ] education schema table
+      - [x] education schema table
           - id
           - degree_name
           - institute_name
@@ -36,13 +36,13 @@
           - ended_at
           - is_completed
           - user_id
-      - [ ] relations
-        - [ ] education has one user
-      - [ ] Methods
-        - [ ] index
-        - [ ] store
-        - [ ] update
-        - [ ] delete
+      - [x] relations
+        - [x] education has one user
+      - [x] Methods
+        - [x] index
+        - [x] store
+        - [x] update
+        - [x] delete
 
 ### certification module
       - [ ] certification schema table
