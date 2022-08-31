@@ -20,4 +20,5 @@ Route::middleware('auth:sanctum')->group(function () {
   require __DIR__ . '/api/v1/user/user.php';
   require __DIR__ . '/api/v1/education/education.php';
   require __DIR__ . '/api/v1/certification/certification.php';
+  require __DIR__ . '/api/v1/skill/skill.php';
 });
