@@ -45,7 +45,7 @@
         - [x] delete
 
 ### certification module
-      - [ ] certification schema table
+      - [x] certification schema table
           - id
           - name
           - url
@@ -53,13 +53,13 @@
           - start_at
           - ended_at
           - user_id
-      - [ ] relations
-        - [ ] certification has one user
-      - [ ] Methods
-        - [ ] index
-        - [ ] store
-        - [ ] update
-        - [ ] delete
+      - [x] relations
+        - [x] certification has one user
+      - [x] Methods
+        - [x] index
+        - [x] store
+        - [x] update
+        - [x] delete
 
 ### skill module
       - [ ] skill schema table
