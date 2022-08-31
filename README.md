@@ -62,19 +62,19 @@
         - [x] delete
 
 ### skill module
-      - [ ] skill schema table
+      - [x] skill schema table
           - id
           - name 
           - image_url
           - is_public
           - user_id
-      - [ ] relations
-        - [ ] skill has one user
-      - [ ] Methods
-        - [ ] index
-        - [ ] store
-        - [ ] update
-        - [ ] delete
+      - [x] relations
+        - [x] skill has one user
+      - [ x Methods
+        - [x] index
+        - [x] store
+        - [x] update
+        - [x] delete
 
 ### social_account module
       - [ ] social_account schema table
