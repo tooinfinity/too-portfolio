@@ -77,20 +77,20 @@
         - [x] delete
 
 ### social_account module
-      - [ ] social_account schema table
+      - [x] social_account schema table
           - id
           - url
           - name
           - is_public
           - image_url
           - user_id
-      - [ ] relations
-        - [ ] social_account has one user
-      - [ ] Methods
-        - [ ] index
-        - [ ] store
-        - [ ] update
-        - [ ] delete
+      - [x] relations
+        - [x] social_account has one user
+      - [x] Methods
+        - [x] index
+        - [x] store
+        - [x] update
+        - [x] delete
 
 ### project module
       - [ ] project schema table
