@@ -111,21 +111,21 @@
         - [x] delete
 
 ### job module
-      - [ ] job schema table
+      - [x] job schema table
           - id
           - company_name
+          - role
           - started_at
           - ended_at
           - is_ended
-          - role
           - user
-      - [ ] relations
-        - [ ] job has one user
-      - [ ] Methods
-        - [ ] index
-        - [ ] store
-        - [ ] update
-        - [ ] delete
+      - [x] relations
+        - [x] job has one user
+      - [x] Methods
+        - [x] index
+        - [x] store
+        - [x] update
+        - [x] delete
 
 ### contact_me module
       - [ ] contact_me schema table
