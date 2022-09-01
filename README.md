@@ -93,21 +93,22 @@
         - [x] delete
 
 ### project module
-      - [ ] project schema table
+      - [x] project schema table
           - id
           - name
           - description
-          - is_published
+          - url
           - image_url
+          - is_published
           - is_opensource
           - user_id
-      - [ ] relations
-        - [ ] project has one user
-      - [ ] Methods
-        - [ ] index
-        - [ ] store
-        - [ ] update
-        - [ ] delete
+      - [x] relations
+        - [x] project has one user
+      - [x] Methods
+        - [x] index
+        - [x] store
+        - [x] update
+        - [x] delete
 
 ### job module
       - [ ] job schema table
