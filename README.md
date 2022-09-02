@@ -128,19 +128,19 @@
         - [x] delete
 
 ### contact_me module
-      - [ ] contact_me schema table
+      - [x] contact_me schema table
           - id
           - name
           - email
           - subject
           - message
-      - [ ] Methods
-        - [ ] store 
+      - [x] Methods
+        - [x] store 
 
-      - [ ] adding this to .env
+      - [x] adding this to .env
           MAIL_MAILER=smtp
           MAIL_HOST=smtp.gmail.com
-          MAIL_PORT=465
-          MAIL_USERNAME=youremail
-          MAIL_PASSWORD=yourpassword
-          MAIL_ENCRYPTION=ssl
+          MAIL_PORT=587
+          MAIL_USERNAME=your_email
+          MAIL_PASSWORD=generated_google_application_password
+          MAIL_ENCRYPTION=null
