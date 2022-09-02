@@ -129,3 +129,18 @@
 
 ### contact_me module
       - [ ] contact_me schema table
+          - id
+          - name
+          - email
+          - subject
+          - message
+      - [ ] Methods
+        - [ ] store 
+
+      - [ ] adding this to .env
+          MAIL_MAILER=smtp
+          MAIL_HOST=smtp.gmail.com
+          MAIL_PORT=465
+          MAIL_USERNAME=youremail
+          MAIL_PASSWORD=yourpassword
+          MAIL_ENCRYPTION=ssl

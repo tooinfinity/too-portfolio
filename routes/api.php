@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 require __DIR__ . '/api/v1/auth/auth.php';
+require __DIR__ . '/api/v1/contact/contact.php';
 
 Route::middleware('auth:sanctum')->group(function () {
   require __DIR__ . '/api/v1/user/user.php';
