@@ -144,3 +144,32 @@
           MAIL_USERNAME=your_email
           MAIL_PASSWORD=generated_google_application_password
           MAIL_ENCRYPTION=null
+
+### API Documentation
+
+#### Installation package generator docs
+
+You can install the package via composer:
+
+```bash
+composer require rakutentech/laravel-request-docs --dev
+```
+
+
+You can publish the config file with:
+
+```bash
+php artisan vendor:publish --tag=request-docs-config
+```
+
+#### Usage
+
+View in the browser on ``/request-docs/``
+
+Generate a static HTML and open api specification
+
+```php
+php artisan lrd:generate
+```
+
+Docs HTML is generated inside ``docs/``.
