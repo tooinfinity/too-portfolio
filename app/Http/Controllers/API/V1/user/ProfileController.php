@@ -7,6 +7,7 @@ use App\Models\Profile;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use Laravel\Sanctum\PersonalAccessToken;
 use Illuminate\Support\Facades\Validator;
 
 class ProfileController extends Controller
@@ -78,5 +79,33 @@ class ProfileController extends Controller
             "message" => "Profile updated successfully.",
             "data" => $profile
         ]);
+    }
+
+    public function me()
+    {
+        $user = Auth::user();
+
+        return response()->json([
+            'status' => true,
+            'data' => $user
+        ], 200);
+    }
+
+    
+    public function logout(Request $request)
+    {
+        // Get bearer token from the request
+        $accessToken = $request->bearerToken();
+        
+        // Get access token from database
+        $token = PersonalAccessToken::findToken($accessToken);
+
+        // Revoke token
+        $token->delete();
+
+        return response()->json([
+            'status' => true,
+            'message' => "User Logged Out Successfully"
+        ], 200);
     }
 }
