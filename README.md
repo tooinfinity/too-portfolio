@@ -173,3 +173,10 @@ php artisan lrd:generate
 ```
 
 Docs HTML is generated inside ``docs/``.
+
+### setting up cors for frontend
+
+ add this key to .env file
+
+    SANCTUM_STATEFUL_DOMAINS=domain.too
+    SESSION_DOMAIN=.domain.too
